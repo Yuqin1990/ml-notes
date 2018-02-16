@@ -1,9 +1,5 @@
 #### 2.1 Binary Classification 
 
-
-
-
-
 ![](/assets/Screen Shot 2018-02-16 at 21.30.37.png)
 ![](/assets/Screen Shot 2018-02-16 at 21.39.50.png)
 

@@ -36,10 +36,10 @@ but y should be between 0 and 1, so this algorithm can't fit the model
 ![](/assets/Screen Shot 2018-02-16 at 21.59.09.png)
 
 y = sigmoid(w \* x + b)
->sigmoid function:  
--infinity: close to 0
-0: 0.5
-infinity: close to 1
+> sigmoid function:  
+> -infinity: close to 0
+> 0: 0.5
+> infinity: close to 1
 
 #### 2.3 Cost function 
 ![](/assets/Screen Shot 2018-02-16 at 22.30.28.png)

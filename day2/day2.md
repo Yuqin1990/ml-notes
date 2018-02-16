@@ -64,6 +64,11 @@ Already learned, Skipped
 Forward propagation step: compute the output of the neural network
 Backward propagation step: compute gradients or compute derivatives
 
+>J(a, b, c) = 3(a + bc)
+step1: u = bc
+step2: v = a + u
+step3: J = 3v
+
 
 
 

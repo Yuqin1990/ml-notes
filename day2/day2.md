@@ -11,11 +11,11 @@ Goal: Train a classifier that the input is an image represented by a feature vec
 ###### Notations:
 ![](/assets/Screen Shot 2018-02-16 at 21.45.24.png)
 
-x: input feature vector
-n: dimension of x, in this case, equals to 64 \* 64 \* 3 = 12288
-m: # of training example 
-X: an nx \* m demensional matrix
-Y: m dimension matrix 
+- x: input feature vector
+- n: dimension of x, in this case, equals to 64 \* 64 \* 3 = 12288
+- m: # of training example 
+- X: an nx \* m demensional matrix
+- Y: m dimension matrix 
 
 
 #### 2.2 logistic Regression
@@ -23,10 +23,10 @@ Y: m dimension matrix
 >An algorithm used in a supervised learning problem when the output y are all either 0 or 1, The goal of the logistic regression is to **minimized the errors** between its predictions and training data 
 
 
-x: input, nx dimension vector
-w: parameters of logistic regression, nx dimension vector
-b: a real number, interceptor 
-y: output 
+- x: input, nx dimension vector
+- w: parameters of logistic regression, nx dimension vector
+- b: a real number, interceptor 
+- y: output 
 
 Linear regression
 y = w \* x + b
@@ -44,10 +44,10 @@ y = sigmoid(w \* x + b)
 #### 2.3 Cost function 
 ![](/assets/Screen Shot 2018-02-16 at 22.30.28.png)
 m: # of training sets
-i: ith training example
-y-hat(i): The prediction on taining sample (i)
-Loss function: To measure how good the output y-hat is when true label is y. (For single training example)
-Cost Function: average of loss function sum. (Apply to all training samples)
+- i: ith training example
+- y-hat(i): The prediction on taining sample (i)
+- Loss function: To measure how good the output y-hat is when true label is y. (For single training example)
+- Cost Function: average of loss function sum. (Apply to all training samples)
 
 #### 2.4 Gradient descent algorithm 
 ![](/assets/Screen Shot 2018-02-16 at 22.45.28.png)
@@ -61,8 +61,8 @@ Cost Function: average of loss function sum. (Apply to all training samples)
 Already learned, Skipped 
 
 #### 2.7 Computation Graph
-Forward propagation step: compute the output of the neural network
-Backward propagation step: compute gradients or compute derivatives
+- Forward propagation step: compute the output of the neural network
+- Backward propagation step: compute gradients or compute derivatives
 
 ![](/assets/Screen Shot 2018-02-16 at 23.11.01.png)
 

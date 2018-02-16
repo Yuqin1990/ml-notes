@@ -51,7 +51,8 @@ sigmoid function:
 
 #### 2.3 Cost function 
 ![](/assets/Screen Shot 2018-02-16 at 22.30.28.png)
-m: # of training sets
+
+- m: # of training sets
 - i: ith training example
 - y-hat(i): The prediction on taining sample (i)
 - Loss function: To measure how good the output y-hat is when true label is y. (For single training example)

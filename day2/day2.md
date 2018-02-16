@@ -52,5 +52,8 @@ Cost Function: average of loss function sum. (Apply to all training samples)
 #### 2.4 Gradient descent algorithm 
 ![](/assets/Screen Shot 2018-02-16 at 22.45.28.png)
 
+- Cost function: convex function, looks like a bowl
+
+- Approach: Started from random initial point, then takes a step in the steepest downhill direction, this is one iteration of gradient descent, after n iterations, finally you converge to the global optimum.
 
 

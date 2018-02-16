@@ -41,10 +41,14 @@ y = sigmoid(w \* x + b)
 0: 0.5
 infinity: close to 1
 
-** Loss(error) function **
+#### 2.3 Cost function 
+![](/assets/Screen Shot 2018-02-16 at 22.30.28.png)
 m: # of training sets
-i: ith training sample
+i: ith training example
 y-hat(i): The prediction on taining sample (i)
 Loss function: To measure how good the output y-hat is when true label is y. (For single training example)
 Cost Function: average of loss function sum. (Apply to all training samples)
+
+#### 2.4 Gradient descent algorithm 
+
 

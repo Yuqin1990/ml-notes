@@ -56,4 +56,5 @@ Cost Function: average of loss function sum. (Apply to all training samples)
 
 - Approach: Started from random initial point, then takes a step in the steepest downhill direction, this is one iteration of gradient descent, after n iterations, finally you converge to the global optimum.
 
+#### 2.5 Deriviative 
 

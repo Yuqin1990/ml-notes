@@ -60,6 +60,10 @@ Cost Function: average of loss function sum. (Apply to all training samples)
 #### 2.6 More derivative example 
 Already learned, Skipped 
 
+#### 2.7 Computation Graph
+Forward propagation step: compute the output of the neural network
+Backward propagation step: compute gradients or compute derivatives
+
 
 
 

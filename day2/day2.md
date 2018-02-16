@@ -50,5 +50,7 @@ Loss function: To measure how good the output y-hat is when true label is y. (Fo
 Cost Function: average of loss function sum. (Apply to all training samples)
 
 #### 2.4 Gradient descent algorithm 
+![](/assets/Screen Shot 2018-02-16 at 22.45.28.png)
+
 
 

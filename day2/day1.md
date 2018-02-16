@@ -7,12 +7,15 @@ x -> neural network -> y
 
 Given enough data for training x and y, neural network are remarkly good at figuring out functions that accurately map from x to y
 
-#### 1.3 Data Source
+#### 1.3 Data Source
+
 - Structured data: Database 
 - Unstructured data: Audio, Image, Text
 
-#### 1.4 Scale drives deep learning progress
-> scale of the data and size of the neural networkIt takes a lot of time to train a netonly in large data area, neural network performs better than other approaches
+#### 1.4 Scale drives deep learning progress
+
+- Scale of the data and size of the neural network
+- It takes a lot of time to train a netonly in large data area, neural network performs better than other approaches
 
 Data, computation, Algorithms
 - Change algorithm make computation faster  

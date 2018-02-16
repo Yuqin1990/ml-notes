@@ -10,6 +10,7 @@ return label 0 otherwise
 Goal: Train a classifier that the input is an image represented by a feature vector, x, and predicts whether the corresponding lable y is 1 or 0
 ###### Notations:
 ![](/assets/Screen Shot 2018-02-16 at 21.45.24.png)
+
 x: input feature vector
 n: dimension of x, in this case, equals to 64 \* 64 \* 3 = 12288
 m: # of training example 
@@ -29,6 +30,7 @@ but y should be between 0 and 1, so this algorithm can't fit the model
 
 **logistic regression**
 ![](/assets/Screen Shot 2018-02-16 at 21.59.09.png)
+
 y = sigmoid(w \* x + b)
 >sigmoid function:  
 -infinity: close to 0

@@ -1,4 +1,4 @@
-##### 2.1 Binary Classification 
+#### 2.1 Binary Classification 
 ![](/assets/Screen Shot 2018-02-16 at 21.30.37.png)
 ![](/assets/Screen Shot 2018-02-16 at 21.39.50.png)
 
@@ -18,17 +18,21 @@ X: an nx \* m demensional matrix
 Y: m dimension matrix 
 
 
-##### 2.2 logistic Regression
+#### 2.2 logistic Regression
+**Definition**
+>An algorithm used in a supervised learning problem when the output y are all either 0 or 1, The goal of the logistic regression is to **minimized the errors** between its predictions and training data 
+
+
 x: input, nx dimension vector
 w: parameters of logistic regression, nx dimension vector
 b: a real number, interceptor 
 y: output 
 
-**linear regression**
+Linear regression
 y = w \* x + b
 but y should be between 0 and 1, so this algorithm can't fit the model
 
-**logistic regression**
+**Logistic regression**
 ![](/assets/Screen Shot 2018-02-16 at 21.59.09.png)
 
 y = sigmoid(w \* x + b)
@@ -36,6 +40,7 @@ y = sigmoid(w \* x + b)
 -infinity: close to 0
 0: 0.5
 infinity: close to 1
+
 
 
 

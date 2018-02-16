@@ -58,7 +58,9 @@ Cost Function: average of loss function sum. (Apply to all training samples)
 
 #### 2.5 Derivatives 
 #### 2.6 More derivative example 
-Skipped 
+Already learned, Skipped 
+
+
 
 
  

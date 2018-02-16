@@ -29,14 +29,18 @@ Goal: Train a classifier that the input is an image represented by a feature vec
 - y: output 
 
 Linear regression
-y = w \* x + b
+$$
+y = w * x + b
+$$
 but y should be between 0 and 1, so this algorithm can't fit the model
 
 **Logistic regression**
 ![](/assets/Screen Shot 2018-02-16 at 21.59.09.png)
+$$
+y = sigmoid(w * x + b)
+$$
 
-y = sigmoid(w \* x + b)
-> sigmoid function:  
+sigmoid function:  
 - -infinity: close to 0
 - 0: 0.5
 - infinity: close to 1

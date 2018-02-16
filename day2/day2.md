@@ -37,9 +37,9 @@ but y should be between 0 and 1, so this algorithm can't fit the model
 
 y = sigmoid(w \* x + b)
 > sigmoid function:  
-> -infinity: close to 0
-> 0: 0.5
-> infinity: close to 1
+- -infinity: close to 0
+- 0: 0.5
+- infinity: close to 1
 
 #### 2.3 Cost function 
 ![](/assets/Screen Shot 2018-02-16 at 22.30.28.png)
@@ -66,9 +66,9 @@ Backward propagation step: compute gradients or compute derivatives
 
 ![](/assets/Screen Shot 2018-02-16 at 23.11.01.png)
 
-> step1: u = bc
-> step2: v = a + u
-> step3: J = 3v
+- step1: u = bc
+- step2: v = a + u
+- step3: J = 3v
 
 
 

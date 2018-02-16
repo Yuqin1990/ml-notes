@@ -41,6 +41,10 @@ y = sigmoid(w \* x + b)
 0: 0.5
 infinity: close to 1
 
-
-
+** Loss(error) function **
+m: # of training sets
+i: ith training sample
+y-hat(i): The prediction on taining sample (i)
+Loss function: To measure how good the output y-hat is when true label is y. (For single training example)
+Cost Function: average of loss function sum. (Apply to all training samples)
 

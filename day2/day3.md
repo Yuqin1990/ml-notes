@@ -20,9 +20,7 @@ x, w, b  ->  z = w * x + b  ->  a = sigmoid(z)  -> Loss function L(a, y)
 #### 2.11 Vectorization 
 >Vectorization is the art of getting rid of explicit for loops in the code
 
-In Python numpy:
-z = np.dot(w, x)
-
+Jupter Notebook Code: 
 
 ```
 import numpy as np

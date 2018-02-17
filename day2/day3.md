@@ -111,3 +111,34 @@ print(cal)
 percentage = 100 * A/cal.reshape(1, 4)
 print(percentage)
 ```
+
+>reshape command: make sure the matrices are the size you need it to be.
+
+Broadcasting examples:
+
+![](/assets/Screen Shot 2018-02-17 at 23.33.34.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

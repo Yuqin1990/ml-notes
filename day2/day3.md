@@ -48,4 +48,4 @@ print('For loop:' + str(1000*(toc-tic))+ 'ms')
 ```
 Summary: Vectorization takes less time than for logistic regression computation 
 
->Notes:         
+>Notes: Scalable deep learning implementations are done on a GPU(Graph process unit), jupter notebook runs on CPU, both CPU and GPU has parallelization instructions(SIMD instructions), which stands for a single instruction multiple data, but GPU performs better on SIMD          

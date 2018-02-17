@@ -46,4 +46,6 @@ toc = time.time()
 print('For loop:' + str(1000*(toc-tic))+ 'ms')
 
 ```
-    
+Summary: Vectorization takes less time than for logistic regression computation 
+
+>Notes:         

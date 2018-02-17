@@ -51,3 +51,15 @@ Summary: Vectorization takes less time than for logistic regression computation
 >Notes: Scalable deep learning implementations are done on a GPU(Graph process unit), jupter notebook runs on CPU, both CPU and GPU has parallelization instructions(SIMD instructions), which stands for a single instruction multiple data, but GPU performs better on SIMD          
 
 #### 2.12 More Vectorization Examples
+Numpy built-in functions:
+
+- np.log
+- np.ads
+- np.maxmum
+- ...
+
+Code:
+```
+import numpy as np
+u = np.exp(v)
+```

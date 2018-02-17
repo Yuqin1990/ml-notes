@@ -118,8 +118,11 @@ Broadcasting examples:
 
 ![](/assets/Screen Shot 2018-02-17 at 23.33.34.png)
 
+General Principle:
 
+![](/assets/Screen Shot 2018-02-17 at 23.40.20.png)
 
+> Reference: numpy broadcasting
 
 
 

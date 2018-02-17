@@ -76,6 +76,7 @@ Z = np.dot(w.T, x) + b
 A = [a1, a2, ... ai] = sigmoid(Z)
 
 #### 2.14 Use Vectorization to perform the gradient computations for all m training samples
+![](/assets/Screen Shot 2018-02-17 at 23.13.01.png)
 In Python:
 
 - db = (1/m) * np.sum(dz)

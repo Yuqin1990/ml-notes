@@ -64,7 +64,8 @@ Code Example:
 import numpy as np
 u = np.exp(v)
 ```
-#### 2.13 Vectorizing Logistic Regression 
+#### 2.13 Vectorizing Logistic Regression
+![](/assets/Screen Shot 2018-02-17 at 23.04.20.png) 
 In Python:
 
 Z = np.dot(w.T, x) + b

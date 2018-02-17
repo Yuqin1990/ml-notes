@@ -63,3 +63,4 @@ Code:
 import numpy as np
 u = np.exp(v)
 ```
+#### 2.13 

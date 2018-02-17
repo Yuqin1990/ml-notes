@@ -89,5 +89,3 @@ In Python:
 - W = W - learning_rate * dw
 - b = b - learning_rate * db
 
-#### 2.15 Broadcasting in Python 
-

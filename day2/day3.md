@@ -55,10 +55,11 @@ Numpy built-in functions:
 
 - np.log
 - np.ads
-- np.maxmum
+- np.maximum
 - ...
 
-Code:
+Code Example:
+
 ```
 import numpy as np
 u = np.exp(v)

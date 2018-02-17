@@ -79,10 +79,15 @@ Already learned, Skipped
 - step2: v = a + u
 - step3: J = 3v
 
-#### 2.8 Computation Graph Derivative Calculation 
+#### 2.8 Computation Graph - Computing derivatives
 - Derivative - backward the computation graph
-- dJ / dv = 3 = (dJ / dv)*(dv / da)
-- 
+- dJ / dv = 3
+- dJ / da = 3 = (dJ / dv)*(dv / da)
+
+>In python: 
+d finalOutputVar / d var -> dvar
+
+
 
 
 

@@ -22,12 +22,12 @@ x, w, b  ->  z = w * x + b  ->  a = sigmoid(z)  -> Loss function L(a, y)
 
 Jupter Notebook Code: 
 
-```
+```python
 import numpy as np
 a = np.array([1,2,3,4]) 
 ```
 
-```
+```python
 import time
 a = np.random.rand(1000000)
 b = np.random.rand(1000000)

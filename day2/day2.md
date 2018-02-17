@@ -79,6 +79,11 @@ Already learned, Skipped
 - step2: v = a + u
 - step3: J = 3v
 
+#### 2.8 Computation Graph Derivative Calculation 
+- Derivative - backward the computation graph
+- dJ / dv = 3 = (dJ / dv)*(dv / da)
+- 
+
 
 
 

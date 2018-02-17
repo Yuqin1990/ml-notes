@@ -67,7 +67,12 @@ u = np.exp(v)
 #### 2.13 Vectorizing Logistic Regression
 ![](/assets/Screen Shot 2018-02-17 at 23.04.20.png) 
 In Python:
+Use vectorization to compute prediction
 
 Z = np.dot(w.T, x) + b
 - 1 by m row vector 
 - b is automatically expanded to a 1 * m sized row vector, this is called broadcasting in python.
+
+A = [a1, a2, ... ai] = sigmoid(Z)
+
+#### 2.14 Use Vectorization to perform the gradient computations for all m training samples

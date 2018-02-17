@@ -64,5 +64,9 @@ Code Example:
 import numpy as np
 u = np.exp(v)
 ```
-#### 2.13 
+#### 2.13 Vectorizing Logistic Regression 
+In Python:
 
+Z = np.dot(w.T, x) + b
+- 1 by m row vector 
+- b is automatically expanded to a 1 * m sized row vector, this is called broadcasting in python.

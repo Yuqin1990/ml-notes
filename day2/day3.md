@@ -38,11 +38,12 @@ toc = time.time()
 
 print('Vectorization version:' + str(1000*(toc-tic))+ 'ms')
 
-c=0
+c = 0
 tic = time.time()
-c = np.dot(a, b)
+for i in range(1000000):
+  c += a[i] * b[i]
 toc = time.time()
-
+print('For loop:' + str(1000*(toc-tic))+ 'ms')
 
 ```
     

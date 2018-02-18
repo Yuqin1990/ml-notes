@@ -44,7 +44,7 @@ Assume all m training samples are identically independently distributed
 
 ![](/assets/Screen Shot 2018-02-18 at 23.16.13.png)
 
-
+Reference: http://www.ai-start.com/dl2017/lesson1-week2.html#header-n763
 
 
 

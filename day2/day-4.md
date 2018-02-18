@@ -33,3 +33,17 @@ Column vector
 a.shape(1,5)
 Row Vector 
 
+#### 2.17 iPython Notebook
+#### 2.18 Explanation of logistic regression cost function 
+
+Assume all m training samples are identically independently distributed
+
+
+
+
+
+
+
+
+
+

@@ -35,7 +35,7 @@ Row Vector
 
 #### 2.17 iPython Notebook
 
-![](/assets/Screen Shot 2018-02-18 at 23.08.11.png)
+![](/assets/Screen Shot 2018-02-18 at 23.23.49.png)
 
 #### 2.18 Explanation of logistic regression cost function 
 ![](/assets/Screen Shot 2018-02-18 at 23.13.07.png)

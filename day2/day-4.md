@@ -22,7 +22,8 @@ print(np.dot(a,a.T)
 
 - a = np.random.randn(5)
 a.shape = (5,)
-"rank 1 array"
+"rank 1 array" 
+**Note: Don't use**
 
 - a = np.random.randn(5,1)
 a.shape = (5,1)
@@ -31,3 +32,4 @@ Column vector
 - a = np.random.randn(1,5)
 a.shape(1,5)
 Row Vector 
+

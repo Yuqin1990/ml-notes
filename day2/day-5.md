@@ -20,6 +20,9 @@ Repeat logistic regression computation
 ![](/assets/Screen Shot 2018-02-19 at 22.54.30.png)
 
 
+![](/assets/Screen Shot 2018-02-19 at 23.14.52.png)
+
+
 - Circle represent two steps:
     1. z = wx + b
     2. a = sigmoid(z)

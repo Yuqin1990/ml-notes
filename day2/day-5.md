@@ -51,6 +51,8 @@ For multiple layer NN, just do the two steps repeatly.
 
 #### 3.6 One hidden layer NN - Activation function 
 
+![](/assets/Screen Shot 2018-02-19 at 23.44.56.png)
+
 - Use g(z) represent activation function 
 - Sigmoid function is an activation function
 - tanh function, the hyperbolic tangent function, range from -1 to 1. centered 0, if z is too large or too small, the slope would be very small

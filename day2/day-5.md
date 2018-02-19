@@ -17,7 +17,8 @@
 
 Repeat logistic regression computation 
 
-![](/assets/Screen Shot 2018-02-19 at 22.54.35.png)
+![](/assets/Screen Shot 2018-02-19 at 22.54.30.png)
+
 
 - Circle represent two steps:
     1. z = wx + b

@@ -26,13 +26,13 @@ Repeat logistic regression computation
 - Subscript represent node index
 
 #### 3.4  Vectorizing across multiple examples
+![](/assets/Screen Shot 2018-02-19 at 23.14.52.png)
 
 Given m training examples, for the ith(i > 2) layer:
 - input: last layer output 
 - apply formula:
   - z = wx + b
   - a = sigmoid(z)
-
 
 Notations:
 - Square brackets i: layer i

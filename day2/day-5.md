@@ -64,7 +64,7 @@ For multiple layer NN, just do the two steps repeatly.
 
 Pros and cons:
 - sigmoid function: never use it except for the output layer if you are doing binary classification 
-- tanh function: always better than sigmoid function
+- tanh function: always works better than sigmoid function
 - reLu function: default one
 - leak reLu function: a = max(0.01z, z)
 

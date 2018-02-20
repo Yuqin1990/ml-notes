@@ -23,6 +23,26 @@
   g'(z) = 1 if z > 0
   
 #### 3.9 Gradient descent for NN
+![](/assets/Screen Shot 2018-02-20 at 20.32.35.png)
+- Initialize params randomly
+- Update w and b repeatly 
+  - w = w - learning_rate * dw
+  - b = b - learning_rate * dw
+  
+#### 3.11 Random Initialization 
+![](/assets/Screen Shot 2018-02-20 at 20.41.10.png)
+
+- If you initialize weights to zero 
+  No matter what example input, all a are same, and all dz are same
+  two hidden unit are same
+
+![](/assets/Screen Shot 2018-02-20 at 20.41.22.png)
+
+- w should be initialize randomly while b can initialize as 0
+
+
+
+
 
 
         

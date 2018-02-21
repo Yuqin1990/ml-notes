@@ -49,8 +49,43 @@ $$
 ![](/assets/Screen Shot 2018-02-22 at 00.17.57.png)
 
 
+#### 4.6 Forward and backward propagation 
+- Forward prop:
+![](/assets/Screen Shot 2018-02-22 at 00.43.49.png)
+
+- Backward prop:
+![](/assets/Screen Shot 2018-02-22 at 00.43.56.png)
+
+![](/assets/Screen Shot 2018-02-22 at 00.43.12.png)
 
 
 
+#### 4.7 Parameters and hyper parameters
+- Parameters: W, b
+- Hyper Parameters(Control w and b):   
+  - Learning rate, 
+  - \# of iterations, 
+  - \# of hidden layers, 
+  - \# of hidden units,   
+  - Choice of activation functions
+  
+- Other hyper parameters: momentum, mini batch size, various form of regularization parameters...
+
+![](/assets/Screen Shot 2018-02-22 at 01.09.01.png)
+
+> Applied deep learning is a very empirical process
+
+- Try different settings and see which one works best 
+- One model can be applied to different situations 
+- But for the single situation, settings may change over time
+
+
+#### 4.8 Why do this have to do with the brain 
+
+![](/assets/Screen Shot 2018-02-22 at 01.18.07.png)
+
+- NN: Forward and Backward prop
+- activation function just like a single biology neurons 
+  
 
 

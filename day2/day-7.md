@@ -1,4 +1,9 @@
 #### 4.1 Deep L-layer Neural network
+
+![](/assets/Screen Shot 2018-02-22 at 01.23.00.png)
+
+![](/assets/Screen Shot 2018-02-22 at 01.23.06.png)
+
 - logistic regression: one layer network
 - L: # of layers 
 - n: # of units in different layer 
@@ -10,6 +15,9 @@
 - At first layer, a = x
 
 #### 4.3 Getting your matrix dimensions right
+![](/assets/Screen Shot 2018-02-22 at 01.26.15.png)
+
+![](/assets/Screen Shot 2018-02-22 at 01.26.26.png)
 
 - dw and w should be same dimensoion
 - db and b should be same dimension

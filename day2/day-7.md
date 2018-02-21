@@ -85,7 +85,7 @@ $$
 ![](/assets/Screen Shot 2018-02-22 at 01.18.07.png)
 
 - NN: Forward and Backward prop
-- activation function just like a single biology neurons 
+- Activation function just like a single biology neurons 
   
 
 

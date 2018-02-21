@@ -24,3 +24,8 @@
 > Informally: There are functions you can compute with small L-layer deep neural network that shallower networks required exponentially more hidden units to compute
 
 - Multiple layer network is more efficient that shallow network
+
+#### 4.5 Why Deep Network Work Well
+
+
+

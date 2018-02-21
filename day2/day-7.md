@@ -10,6 +10,7 @@
 - At first layer, a = x
 
 #### 4.3 Getting your matrix dimensions right
+
 - dw and w should be same dimensoion
 - db and b should be same dimension
 

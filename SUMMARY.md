@@ -8,4 +8,5 @@
   * [Day 4](day2/day-4.md)
   * [Day 5](day2/day-5.md)
   * [Day 6](day2/day-6.md)
+  * [Day 7](day2/day-7.md)
 

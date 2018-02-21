@@ -26,7 +26,7 @@
 - Multiple layer network is more efficient that shallow network
 
 #### 4.5 Building blocks of deep neural networks
-
+![](/assets/Screen Shot 2018-02-22 at 00.17.48.png)
 
 - Layer L
   - Forward prop: 
@@ -39,9 +39,15 @@
     - Input: da[l]
     - Params: w[l], b[l], dz[l]
     - dw[l], db[l]
+$$
+w[l] := w[l] - learning\_rate * dw[l]
+$$
+$$
+b[l] := b[l] - learning\_rate * db[l]
+$$
 
-w[l] := w[l] - learning_rate * dw[l]
-b[l] := b[l] - learning_rate * db[l]
+![](/assets/Screen Shot 2018-02-22 at 00.17.57.png)
+
 
 
 

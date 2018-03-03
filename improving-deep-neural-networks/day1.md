@@ -106,7 +106,9 @@ L2 Regularization
  
 - Neural network 
   - Cost function: sum of losses 
-    
+  - Forbenius norm: Means the sum of square of elements of a a matrix
+  - L2 regularization is also called weight decay
+  
 
 
 

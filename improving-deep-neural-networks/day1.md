@@ -106,8 +106,23 @@ L2 Regularization
 ### 1.5 Why regularization reduces overfitting
 
 ##### How does regularization prevent overfitting?
+![](/assets/Screen Shot 2018-03-04 at 12.44.16 AM.png)
+- Reduce impact of hidden units 
+- Make network simpler and smaller network
 
 
+![](/assets/Screen Shot 2018-03-04 at 12.44.04 AM.png)
+- tanh activation function, g(z) =tanh(z) 
+ - if lambda is large 
+   - => the weight function become small, because they are penalized being large into a cos function, because z = wa +b 
+   - => z become small, according to tanh function graph 
+   - => the line become linear when z is small
+   - => thus every layer will be roughly linear 
+   - => the whole network is more just a linear network 
+ 
+ 
+##### Conclusion 
+If the regularization parameter becomes very large, w become small, z become small or take small range of values, tanh will become linear, and the whole nn will more like a linear function
 
 
 

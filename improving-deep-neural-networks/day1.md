@@ -103,6 +103,11 @@ L2 Regularization
   - L2 regularization is also called weight decay
   
 
+### 1.5 Why regularization reduces overfitting
+
+##### How does regularization prevent overfitting?
+
+
 
 
 

@@ -31,7 +31,7 @@ Examples:
 
 - But deep learning training requires huge amount of data, you might use all sorts of creative tactics such as crawling webpages, so the dev set and test set may not come from same distribution, but if they do, the progress in machine learning algorithm will be faster. 
 - Not having a test set might be Ok
-  - Just train different on you train sets
+  - Just train different models on you training sets
   - evaluate these models with dev sets, dev sets also called test sets in this situation 
   
 
@@ -89,6 +89,20 @@ Done
 Training a NN can reduce both variance and bias, without worrying about increasing the other, the main cost of training a neural network that's too big is that computational time
 
 ### 1.4 Regularizing your neural network
+
+##### Solution to reduce high variance
+1. Adding regularization will help to prevent overfitting, or to reduce the errors in network
+2. Get more training data
+
+##### How regularization works
+- Logistic regression: 
+ - Try to minimize the cost function J, some of the training examples of the losses of the individual predictions in the different examples, w and b are parameters
+ - w is an x-dimensional parameter vector, and b is a real number
+
+L2 Regularization 
+
+ 
+
 
 
 

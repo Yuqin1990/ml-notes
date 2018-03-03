@@ -95,13 +95,22 @@ Training a NN can reduce both variance and bias, without worrying about increasi
 2. Get more training data
 
 ##### How regularization works
+L2 Regularization 
 - Logistic regression: 
  - Try to minimize the cost function J, some of the training examples of the losses of the individual predictions in the different examples, w and b are parameters
  - w is an x-dimensional parameter vector, and b is a real number
-
-L2 Regularization 
-
+ - lambda: regularization parameter, hyper parameter need to tune 
  
+ (⚠️ Notice: Lambda is a reserved keyword in python, so we use lambd to represent the lambda regularization parameter)
+ 
+ 
+- Neural network 
+  - Cost function: sum of losses 
+    
+
+
+
+
 
 
 

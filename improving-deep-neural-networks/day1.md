@@ -22,10 +22,10 @@ Idea -> code -> Experiment -> Idea
 ##### Mismatched train/test distribution 
 Examples:
 
-|Set| Training set |Dev/test sets|
+|Set type| Desc |Features|
 |---------|---|---|
-|Desc|Cat pictures from webpages|Cat pictures from users using your app|
-|Features|Hight resolution, nicely framed pictures|blurrier, lower res images|
+|Training|Cat pictures from webpages|Hight resolution, nicely framed pictures|
+|Dev/test|Cat pictures from users using your app |blurrier, lower res images|
 
 ⚠ Make sure the dev and test come from same distribution 
 
@@ -50,19 +50,12 @@ Examples:
 ** The purple line represent the high bias and high variance output**
 
 Example: Cat classification
-- Train set error: 1%
-- Dev set error: 11%
 
-High variance, **unfitting the dev set data** 
-
-- Train set error: 15%
-- Dev set error: 16%
-
-High bias, **unfitting the training set data** 
-
-- Train set error: 0.5%
-- Dev set error: 1%
-low bias and low variance
+|Train set error|Dev set error|Type|
+|---|---|---|
+|1%|11%|High variance, **unfitting the dev set data** |
+|15%|16%|High bias, **unfitting the training set data**|
+|0.5%|1%|low bias and low variance|
 
 Under the assumption that human level performance gets nearly 0% error or more generally, that the optimal error, called Bayes error, which is nearly 0%
 

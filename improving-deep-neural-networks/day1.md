@@ -72,8 +72,8 @@ By looking at the algorithm error on training set and dev set, you can diagnose 
 ### 1.3 Basic "recipe" for machine learning 
 
 high bias(Training set performance) 
-          |
-          V
+|
+V
 Bigger network, train longer 
 |
 V
@@ -85,4 +85,10 @@ More data, regularition, (NN Architecture)
 V
 Done
  
+##### Conclusion 
+Training a NN can reduce both variance and bias, without worrying about increasing the other, the main cost of training a neural network that's too big is that computational time
+
+### 1.4 Regularizing your neural network
+
+
 

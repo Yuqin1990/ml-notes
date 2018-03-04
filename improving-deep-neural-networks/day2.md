@@ -86,8 +86,6 @@ Partial Solution: Random weight initialization
 - With layer > 150, if the activation or gradients increase or decrease exponentially as a function of L, then these values could get really big or really small , and this makes training difficult, and it will take long time to make NN learn anything. 
 
 
-### 1.11 Weight initialization for deep networks
-
 
 
 

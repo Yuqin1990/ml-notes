@@ -4,16 +4,16 @@
 Go through each layer of NN, for each layer, drop a coin, so each layer has a 0.5 chance of keeping each node and 0.5 chance of removing each node, then we decide to remove the node.   
 
 ##### Implementation 
-    - Most common: Inverted Dropout
-        - Illustrate with layer l = 3
-        - keep-prob = 0.8  The probability that a given hidden unit will be kept       
-        ```
-        d3 = np.random.rand(a3.shape[0], a3.shape[1]) < keep-prob
-        a3 = np.multiply(a3, d3)        # a3 *= d3  
-        a3 /= keep-prob      # invert dropout, this makes test time easier, because you have less of a scaling problem    
-        ```
-        d3 generate a random matric, will be a boolean array where value is true and false(1, 0)
-        - Making predictions at test time, not use dropout at test time![](/assets/Screen Shot 2018-03-04 at 21.10.51.png)
+Most common: Inverted Dropout
+- Illustrate with layer l = 3
+- keep-prob = 0.8  The probability that a given hidden unit will be kept       
+```
+d3 = np.random.rand(a3.shape[0], a3.shape[1]) < keep-prob
+a3 = np.multiply(a3, d3)        # a3 *= d3  
+a3 /= keep-prob      # invert dropout, this makes test time easier, because you have less of a scaling problem    
+```
+d3 generate a random matric, will be a boolean array where value is true and false(1, 0)
+- Making predictions at test time, not use dropout at test time![](/assets/Screen Shot 2018-03-04 at 21.10.51.png)
     
     
 ### 1.7 Understanding Dropout

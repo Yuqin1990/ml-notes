@@ -11,4 +11,5 @@
   * [Day 7](day2/day-7.md)
 * [Improving Deep Neural Networks](improving-deep-neural-networks.md)
   * [day1](improving-deep-neural-networks/day1.md)
+  * day3
 

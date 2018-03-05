@@ -53,7 +53,10 @@
 - Remember regularization
 - Doesn't work with dropout
     - dropout can be viewed as optimizing some cost function J, J is too large to compute, and you just sampling the cost function every time you eliminate different random subsets in those that we use dropout, so it's difficult to use grad check to double check your computation with dropouts, **set keep-prod = 1 when debugging with grad check**
-- 
+- Run at random initialization, perhaps agin after some training 
+    - w,b close to 0, after random initialization of w and b, train the network for a while, so w,b should be larger, then run grad check again after you have trainer for some number of iterations
+    
+    
 
 
 

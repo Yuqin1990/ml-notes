@@ -52,9 +52,11 @@
     - If you find that the values if theta or d theta, they're far off, all correspond to dbl for some layer or for some layers, but the components for dw are quite close(different components of theta correspond to different components of b and w ), the bug in how you're computing db, the derivative with respect to parameters b
 - Remember regularization
 - Doesn't work with dropout
-    - dropout can be viewed as optimizing some cost function J, J is too large to compute, and you just sampling the cost function every time you eliminate different random subsets in those that we use dropout, so it's difficult to use grad check to double check your computation with dropouts, **set keep-prod = 1 when debugging with grad check**
+    - Dropout can be viewed as optimizing some cost function J, J is too large to compute, and you just sampling the cost function every time you eliminate different random subsets in those that we use dropout, so it's difficult to use grad check to double check your computation with dropouts, **set keep-prod = 1 when debugging with grad check**
 - Run at random initialization, perhaps agin after some training 
-    - w,b close to 0, after random initialization of w and b, train the network for a while, so w,b should be larger, then run grad check again after you have trainer for some number of iterations
+    - w, b close to 0, after random initialization of w and b, train the network for a while, so w,b should be larger, then **run grad check again after you have trainer for some number of iterations**
+    
+![](/assets/Screen Shot 2018-03-05 at 11.49.53 PM.png)
     
     
 

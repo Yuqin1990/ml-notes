@@ -1,10 +1,10 @@
-2.4 Understanding exponentially weighted averages
-Advantage: Takes very little memory, keep overwriting v by taking the formula 
+### 2.4 Understanding exponentially weighted averages
+##### Advantage: Takes very little memory, keep overwriting v by taking the formula 
 ![](/assets/Screen Shot 2018-03-07 at 11.43.08 PM.png)
 ![](/assets/Screen Shot 2018-03-08 at 12.04.35 AM.png)
 
-2.5 Bias correction in exponentially weighted average
-Bias correction 
+### 2.5 Bias correction in exponentially weighted average
+##### Bias correction 
 紫色曲线开始的时候相对较低一些。这是因为开始时我们设置，所以初始值会相对小一些，直到后面受前面的影响渐渐变小，趋于正常。
 
 修正这种问题的方法是进行偏移校正（bias correction

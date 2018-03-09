@@ -31,6 +31,18 @@ It works good for bowl shape function, a ball which rolls to the minimum(rolling
 - Beta works like friction which prevent the ball from speeding up without limit 
 - Rather than gradient descent, just taking every single step independently of all previous steps, the ball can roll downhill and gain momentum, it can accelerate down this bowl and therefore gain momentum 
 
+### 2.7 RMSprop
+##### On iteration t:
+Compute dw, db on current mini-batch
+The function is much sloped in b direction than in w direction, So db square will relatively large while dw square is relatively small
+
+![](/assets/Screen Shot 2018-03-09 at 11.32.23 PM.png)
+
+
+
+
+
+
 
 
 

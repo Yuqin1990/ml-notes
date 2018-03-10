@@ -73,12 +73,16 @@ print(session.run(w))
 
 ```
 
+Advantages:
 
+- Tensorflow has build-in forward-progation functions, so you do not need to explicitly implement backward prop 
 
+- Can switch easily between different optimization functions 
 
-
-
-
+##### Conclusion 
+1. Systematically organize the hyperparameter search, 
+2. Norm batch normalization to speed up learning process
+3. Programming framework for deep learning 
 
 
 

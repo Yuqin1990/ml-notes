@@ -50,6 +50,8 @@ Forward progation
 import numpy as np
 import tensorflow as tf
 
+coefficients = np.array([1.], [-10], [25.])
+
 w = tf.Variable(0, dtype=tf.float32)
 x = tf.placeholder(tf.float32, [3, 1])
 cost = w**2 - 10*w + 25
@@ -61,11 +63,11 @@ session = tf.Session()
 session.run(init)
 print(session.run(w))
 
-session.run(train)
+session.run(train, feed_dict=x:coefficients)
 print(session.run(w))
 
 for i in range(1000):
- session.run(train)
+ session.run(train, feed_dict=x:coefficients)
 
 print(session.run(w))
 

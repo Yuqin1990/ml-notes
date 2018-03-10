@@ -27,6 +27,8 @@ The decision boundary between the two classes is linear boundary.
 
 ### 3.9 Softmax regresison
 
+# Programming framework
+
 ### 3.10 Deep learning frameworks 
 ##### Deep learning framework 
 Criteria of choosing deep learning framework:
@@ -34,8 +36,22 @@ Criteria of choosing deep learning framework:
 - Running speed especially for large data set 
 - Truly open(open source with good governance) 
 
+### 3.11 Tensorflow
+##### Motivating problem 
+Minimize some cost function 
 
+$$
+J(w) = (W - 5)^2
+$$
 
+```
+import numpy as np
+import tensorflow as tf
+```
+```
+w = tf.Variable(0, dtype=tf.float32)
+cost = tf.add(w**2, tf.multiply())
+```
 
 
 

@@ -29,7 +29,7 @@ In deep learning,
 
 An example:
 Hyperparamter 1: alpha 
-Hyperparamter: epsilon 
+Hyperparamter 2: epsilon 
 epsilon doesn't have any effect on the result, while alpha matters a lot. 
 
 - Another common practice is to use a coarse to fine sampling scheme
@@ -111,12 +111,12 @@ Batch normalization make your hyperparameter search problem much easier, make th
     
 ##### Implementing Batch Norm
 Given some intermediate values in neural net, you have some hidden unit values Z(1) up to Z(m)
-    - Compute the mean and variance of z
-    - Take each Z_i and normalized by the formula 
-    - But we don't want the hidden units ro always have mean 0 and variance 1, **it makes sense for hidden units to have a different distribution**, so instead we compute Z_tildle, equals to gamma * z_norm + beta (gamma and beta are learnable parameters of the model)
-    - Use gradient descent to update the params beta and gamma, just like updating the weights of the NN. (⚠️Notice that: It allows you to set the mean of Ztilde to be whatever you want to be )
-    - By an appropriate setting of the parameters gamma and beta, this normalization step (the 4 equations) is just computing the identity function by choosing other values of gamma and beta. this allows you to make the hidden unit values of other means and variance as well. 
-    - Now use z_tilde_i instead of z_i in your NN
+- Compute the mean and variance of z
+- Take each Z_i and normalized by the formula 
+- But we don't want the hidden units ro always have mean 0 and variance 1, **it makes sense for hidden units to have a different distribution**, so instead we compute Z_tildle, equals to gamma * z_norm + beta (gamma and beta are learnable parameters of the model)
+- Use gradient descent to update the params beta and gamma, just like updating the weights of the NN. (⚠️Notice that: It allows you to set the mean of Ztilde to be whatever you want to be )
+- By an appropriate setting of the parameters gamma and beta, this normalization step (the 4 equations) is just computing the identity function by choosing other values of gamma and beta. this allows you to make the hidden unit values of other means and variance as well. 
+- Now use z_tilde_i instead of z_i in your NN
 
 
 ##### Conclusion

@@ -51,7 +51,9 @@ import numpy as np
 import tensorflow as tf
 
 w = tf.Variable(0, dtype=tf.float32)
+x = tf.placeholder(tf.float32, [3, 1])
 cost = w**2 - 10*w + 25
+cost = x[0][0]*w**2 + x[1][0]*w + x[2][0]
 train = tf.train.GradientDescentOptimier(0.01).minimize(cost)
 
 init = tf.global_variables_initializer()
@@ -91,3 +93,4 @@ print(session.run(w))
 
 
 
+7

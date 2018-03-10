@@ -17,4 +17,5 @@
   * [day5](da-yu.md)
   * [day6](improving-deep-neural-networks/day6.md)
   * [day7](improving-deep-neural-networks/day7.md)
+  * [day8](improving-deep-neural-networks/day8.md)
 

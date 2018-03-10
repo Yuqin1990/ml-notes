@@ -16,6 +16,44 @@ The layer N get value a\_(n-1) from layer N-1, if w, b of layer N-1 changed, the
 - Weaken and decouple the earlier layer params and later layers params 
 
 
+##### Batch Norm as regularization 
+- Each mini-batch is scaled by the mean/variance computed on just that mini-batch
+- This adds some noise to the values z[l] within that minibatch. So similar to dropout, it adds some noise to each hidden layer's activations
+- This has a slight regularization effect
+
+### 3.7 Batch Norm at test time
+Batch norm processes your data on mini batch at a time, but the test time you might need to process the examples one at a time.
+
+##### Batch Norm at test time
+??
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

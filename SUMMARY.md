@@ -19,4 +19,5 @@
   * [day7](improving-deep-neural-networks/day7.md)
   * [day8](improving-deep-neural-networks/day8.md)
   * [day9](improving-deep-neural-networks/day9.md)
+  * [day10](improving-deep-neural-networks/day10.md)
 

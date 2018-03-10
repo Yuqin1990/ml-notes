@@ -27,6 +27,35 @@ The decision boundary between the two classes is linear boundary.
 
 ### 3.9 Softmax regresison
 
-### 3.10 Softmax regresison
+### 3.10 Deep learning frameworks 
+##### Deep learning framework 
+Criteria of choosing deep learning framework:
+- Ease of programming(dev and deploy for actual use)
+- Running speed especially for large data set 
+- Truly open(open source with good governance) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

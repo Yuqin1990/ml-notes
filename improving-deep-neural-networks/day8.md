@@ -37,7 +37,31 @@ For example:
 1. Find a point that has good result, then zoom in to a smaller region of the hyperparamters and then sample more density within this space, again randonly, but more importantly, focus on this area, the pick whatever value that allows you to do best on your training set objective or does best on your development
 
 ##### Conclusion 
-- 
+- Use random sampling and adequate search 
+- optionally consider implementing a coarse to fine search process
+
+### 3.2 Using an appropriate scale to pick hyperperameters
+##### Picking hyperparameters at random 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

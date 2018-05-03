@@ -41,9 +41,33 @@ Choose a dev set and test set to reflect data you expect to get in future and co
 Set the dev/test set from same distribution. 
 
 ##### 1.6 Size of dev and test sets 
+###### 1.6.1 Percentage of each set
+Old Era:
+70% Train 
+30% Test 
+
+60% Train 
+20% Dev
+20% Test
+
+Now:
+Given you have 1 million data set 
+98% Train 
+1% Dev
+1% Test
+So in the modern times, we have more data, so have less than 20% for test/dev set is more reasonable.
 
 
 
-    
+###### 1.6.2 Size of test set
+Set you test set to be big enough to give high confidence in the overall performance of your system
+
+If you do not need high confidence in performance, you can only have 2 sets: dev and train. no test set. 
+
+ 
+
+
+
+
     
   

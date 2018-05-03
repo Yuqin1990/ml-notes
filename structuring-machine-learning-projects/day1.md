@@ -38,11 +38,10 @@ Not Recommended to use 2 metric precision and recall to pick a classifier, you j
 In this case, we can use F1 score, the F1 score is defined by the formula 
 P represent precision, R represents Recall
 
-$$
 F1 score = Harmonic mean of precision P and recall R
-$$
 
-Dev set + Single number evaluation metric will speed up iterating.
+
+**Dev set + Single number evaluation metric will speed up iterating. **
 
 
 

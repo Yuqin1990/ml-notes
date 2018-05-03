@@ -20,4 +20,6 @@
   * [day8](improving-deep-neural-networks/day8.md)
   * [day9](improving-deep-neural-networks/day9.md)
   * [day10](improving-deep-neural-networks/day10.md)
+* [Structuring Machine Learning Projects](structuring-machine-learning-projects.md)
+  * [day1](structuring-machine-learning-projects/day1.md)
 

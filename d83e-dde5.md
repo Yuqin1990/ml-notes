@@ -40,7 +40,6 @@ the result is disappointting
 Choose a dev set and test set to reflect data you expect to get in future and consider important to do well on.**
 
 
-
     
     
   

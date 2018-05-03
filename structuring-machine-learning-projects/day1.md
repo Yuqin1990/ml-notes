@@ -64,6 +64,3 @@ F1 score = Harmonic mean of precision P and recall R
 
 
 
-
-
-

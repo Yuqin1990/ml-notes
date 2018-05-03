@@ -38,6 +38,10 @@ the result is disappointting
 
 **Conclusion:
 Choose a dev set and test set to reflect data you expect to get in future and consider important to do well on.**
+Set the dev/test set from same distribution. 
+
+##### 1.6 Size of dev and test sets 
+
 
 
     

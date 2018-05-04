@@ -23,4 +23,5 @@
 * [Structuring Machine Learning Projects](structuring-machine-learning-projects.md)
   * [day1](structuring-machine-learning-projects/day1.md)
   * [day2](d83e-dde5.md)
+  * [day3](structuring-machine-learning-projects/day3.md)
 

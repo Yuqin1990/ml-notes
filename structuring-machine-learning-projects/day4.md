@@ -105,7 +105,7 @@ Variance: Training error < -- > Dev error
 ||Avoidable bias| 1. Train bigger model 2. Train longer/better optimization algorithms 3. NN architecture/hyperparameters search |
 |Training Error|||
 ||Variance|1. More data 2. Regularization, L2 and Dropout and Data augmentation 3. hyperparameters |
-|Dev Error|||    
+|Dev Error||| 
 
 
 

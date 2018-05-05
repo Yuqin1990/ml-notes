@@ -88,10 +88,24 @@ another areas that overpass human:
 
 ##### 1.12 Comparing to human-level performance 
 
+Getting a supervised learning algorithm to work well means fundamentally assuming you can do 2 things:
+
+    1. Can fit the training set pretty well = achieve low avoidable variance  
+    2. The training set performance generalized pretty well to the dev/test set
 
 
+Reducing (avoidable) bias and variance 
 
-    
+Avoidable bias: Human Level <--> Training error
+Variance: Training error < -- > Dev error
+
+|Class| error | methods |
+|-|-|-|
+|Human Level|||
+||Avoidable bias| 1. Train bigger model 2. Train longer/better optimization algorithms 3. NN architecture/hyperparameters search |
+|Training Error|||
+||Variance|1. More data 2. Regularization, L2 and Dropout and Data augmentation 3. hyperparameters |
+|Dev Error|||    
 
 
 

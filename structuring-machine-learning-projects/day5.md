@@ -39,4 +39,3 @@ Ideas for cat detection:
 
 This process help you make better priorization decisions, and understand how promising different approached are to work on.
 
-

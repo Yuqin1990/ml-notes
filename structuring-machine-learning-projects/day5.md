@@ -37,5 +37,6 @@ Ideas for cat detection:
 |...|||||
 |% of total|8%|43%|61%||
 
-This process help you make better priorization decisions, and understand how promising different approached are to work on
+This process help you make better priorization decisions, and understand how promising different approached are to work on.
+
 

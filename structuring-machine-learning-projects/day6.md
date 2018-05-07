@@ -21,7 +21,7 @@ Training set: If the error is reasonable random, just left the error alone.
 |...||||||
 |||||X|Labeler missed cat in background|
 |||||X|cat pic, not real cat|
-|% of total|8%|43%|61%|6%||
+|% of total|8%|43%|61%|6%|||
 
 -----------------------------
 Example 2:

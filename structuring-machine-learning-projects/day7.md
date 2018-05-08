@@ -88,6 +88,14 @@ Test error < -- degree of overfitting - > Dev/test error
 Dev/test set should from same distribution 
 
 
+##### 2.5.2 More general formulation 
+
+|Training|Dev/test|
+|-|-|
+|purchased data, Smart speaker control, Voice keyboard| Speech activated rearview mirror|
+
+
+
 
 
 

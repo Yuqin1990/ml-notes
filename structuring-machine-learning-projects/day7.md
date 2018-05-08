@@ -46,6 +46,8 @@ Build a speech activated rearview mirror for a car
 |purchased data, Smart speaker control, Voice keyboard| Speech activated rearview mirror|
 
 
+-----
+**Conclusion: Always use the aimed target data as dev/test set**
 
 
 

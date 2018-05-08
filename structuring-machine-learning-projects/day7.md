@@ -50,6 +50,59 @@ Build a speech activated rearview mirror for a car
 **Conclusion: Always use the aimed target data as dev/test set**
 
 
+#### 2.5 Mismatched training and dev/test data 
+Bias and Variance with mismatched data distributions 
+
+##### 2.5.1 Cat classifier example
+
+Assume human get almost 0% error (Bayers error)
+
+Error analysis:
+Training error    1%
+Dev error         10%
+
+It only reflects that dev set contains image that are much more different to classify accurately.
+
+Two things changed when change from train set to dev set
+1. The trained system never saw dev set data before
+2. Train and dev/test sets from different distributions
+
+Training-dev set: Same distribution as training set, but not used for training 
+
+|Training error|Training-dev set|Dev error|problem|
+|-|-|-|-|
+|1%|9%|10%|variance problem|
+|1%|1.5%|10%|data mismatch|
+|10%|11%|12%|bias, cause human error is 0%|
+|10%|11%|20%|2 issues: bias, data mismatch|
+
+----
+General principles: 
+Bias/variance on mismatched training and dev/test sets
+
+Human/bayers error  < -- avoidable bias -- >   Train error
+Train error       < -- variance --- >  Train-dev error  
+Train-dev error  < -- data mismatch - > Dev/test error  
+Test error < -- degree of overfitting - > Dev/test error  
+
+Dev/test set should from same distribution 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

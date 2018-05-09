@@ -28,4 +28,5 @@
   * [day5](structuring-machine-learning-projects/day5.md)
   * [day6](structuring-machine-learning-projects/day6.md)
   * [day7](structuring-machine-learning-projects/day7.md)
+  * [day8](structuring-machine-learning-projects/day8.md)
 

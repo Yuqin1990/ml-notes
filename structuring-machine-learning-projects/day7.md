@@ -89,10 +89,17 @@ Dev/test set should from same distribution
 
 
 ##### 2.5.2 More general formulation 
+ Speech rearview mirror
 
-|Training|Dev/test|
-|-|-|
-|purchased data, Smart speaker control, Voice keyboard| Speech activated rearview mirror|
+||General speech recognition|Rearview mirror specific speech data|
+|-|-|-|
+|Human Level|"Human level" 4%|6% ask human to label|
+|Error on examples trained on|"Training error" 7%|6% train specific data|
+|Error on examples not trained on|"Training-dev set error" 10%|Dev/Test error 6%|
+
+-----
+**Conclusion: 
+Use different data distribution for train/test/dev sets, this gives you more data to improve the performance of the algorithm, but also brings a new issue, the data mismatch.(difference between training-dev set error and dev/test set error)**
 
 
 

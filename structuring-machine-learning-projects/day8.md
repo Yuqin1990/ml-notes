@@ -59,10 +59,14 @@ The process is same as example 1:
 2. random initialize params on last layer, or add some new layers to existing NN. 
 3. Set output as new y, and retrain the whole NN. 
 
-##### Why we may need transfer learning 
-We may have a lot of data in old NN system, while less data for the problem we are transferring to, lots of data means NN can learn lots of low level features in earlier layers in NN, this help the target system to skip these process with smaller dataset. 
+##### When transfer learning makes sense 
+example: Task from A -> B
 
-So if you have more data in target dataset,** DO NOT USE TRANSFER LEARNING.**
+- Task A and B have the same input x
+- You have more data for Task A than Task B
+- Low level features from A could be helpful for leaning B
+
+DO NOT USE TRANSFER LEARNING WHEN Task B data is more than Task A, cause Task B's data is more valuable.
 
 
 

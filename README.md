@@ -68,7 +68,7 @@ Images -> cars/pedestrians --> route --> steering
 
 E2E: Image -> Steering 
 
-
+In this example, E2E is less promising than multiple steps approach.
 
 
 

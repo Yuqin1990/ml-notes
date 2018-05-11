@@ -23,4 +23,5 @@ When multi-task learning makes sense
 
 
 In practice, multi-task learning is used much less often than transfer learning, if you have a small data set, use transfer learning, while if you have a big dataset, and each feature has similar amount of data, just use multi-task learning.
+Test
 

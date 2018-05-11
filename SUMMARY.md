@@ -30,5 +30,5 @@
   * [day7](structuring-machine-learning-projects/day7.md)
   * [day8](structuring-machine-learning-projects/day8.md)
   * [day9](structuring-machine-learning-projects/day9.md)
-  * day10
+  * [day10](structuring-machine-learning-projects/day10.md)
 
